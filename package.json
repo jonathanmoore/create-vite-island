@@ -7,7 +7,8 @@
     "create-vite-island": "./index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "chmod +x index.js"
   },
   "keywords": [
     "vite",
@@ -17,7 +18,7 @@
     "tailwind",
     "starter"
   ],
-  "author": "Your Name",
+  "author": "Jonathan Moore",
   "license": "MIT",
   "dependencies": {
     "chalk": "^5.3.0",
@@ -26,5 +27,16 @@
     "inquirer": "^9.2.12",
     "ora": "^7.0.1"
   },
-  "type": "module"
+  "type": "module",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanmoore/create-vite-island.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonathanmoore/create-vite-island/issues"
+  },
+  "homepage": "https://github.com/jonathanmoore/create-vite-island#readme"
 }
