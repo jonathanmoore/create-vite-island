@@ -1,6 +1,6 @@
 {
   "name": "create-vite-island",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a new Vite Islands Architecture project",
   "main": "index.js",
   "bin": {
